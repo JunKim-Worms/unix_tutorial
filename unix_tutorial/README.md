@@ -19,7 +19,7 @@ sudo apt install git
 2. 터미널 열고 복사 붙여 넣기 하십쇼.
 ```sh
 mkdir treasure && cd treasure
-git clone https://github.com/JunKim-Worms/genomics-tutorial/unix_tutorial/treasurehunt_v2_kor.pl
+git clone git://github.com/JunKim-Worms/genomics-tutorial/unix_tutorial/treasurehunt_v2_kor.pl
 perl treasurehunt_v2_kor.pl
 mv treasurehunt_v2_kor.pl ..
 ```
