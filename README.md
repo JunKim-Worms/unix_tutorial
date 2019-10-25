@@ -19,9 +19,9 @@ sudo apt install git
 2. 터미널 열고 복사 붙여 넣기 하십쇼.
 ```sh
 mkdir treasure && cd treasure
-git clone git://github.com/JunKim-Worms/genomics-tutorial/unix_tutorial/treasurehunt_v2_kor.pl
-perl treasurehunt_v2_kor.pl
-mv treasurehunt_v2_kor.pl ..
+git clone https://github.com/JunKim-Worms/unix_tutorial.git
+perl unix_tutorial/treasurehunt_v2_kor.pl
+rm -rf unix_tutorial/
 ```
 
 3. 파일들이 잘 생성됐다면 이제 nano를 이용해 단서를 열고 읽어봅시다.
