@@ -20,7 +20,7 @@ sudo apt install git
 ```sh
 mkdir treasure && cd treasure
 git clone https://github.com/JunKim-Worms/unix_tutorial.git
-perl unix_tutorial/treasurehunt_v2_kor.pl
+perl unix_tutorial/treasureHunt_v2_kor.pl
 rm -rf unix_tutorial/
 ```
 
