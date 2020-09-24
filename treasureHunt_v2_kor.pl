@@ -124,7 +124,7 @@ print $OUT8 "탭 만세! 탭이란 얼마나 소중한 버튼인가. 두 말할 
 my $output9 = 'parrotShop/eastThreeSteps/closeEyesAndWalkTowardsTheSoundOfTheWaves/Clue09_P.txt';
 my $OUT9 = &openOut($output9);
 
-print $OUT9 "다른 박사과정들이 탭 안 쓰고 명령어 일일이 치고 있는 걸 보면 새벽에 티타임 갖는 것처럼 너어어무 고통스럽다.\n".
+print $OUT9 "다른 박사과정 대학원생들이 탭 안 쓰고 명령어 일일이 치고 있는 걸 보면 새벽에 티타임 갖는 걸 보는 것 만큼이나 너어어무 고통스럽다.\n".
 "다시 한 번 해보자. 등대(lightHouse)로 가서 서쪽으로 다섯 걸음, 다시 하지(summer solstice)에 최초로 비치는 빛이 만나는 지점을 향해 나아가라.\n";
 
 my $output10 = 'lightHouse/westFiveSteps/atTheSummerSolsticeDigWhereTheFirstRayOfLightMeetsThePath/Clue10_5.txt';
@@ -163,7 +163,7 @@ my $command = 'touch largeStone/southTwoSteps/westFourSteps/grey.txt largeStone/
 `$command`;
 
 print $OUT12 "다음 단서는 파일 시작 부분이 아니라 가장 끝 부분에서 확인할 수 있다(tail). 파일도 아주 기이이이일게 만들어뒀다.\n".
-"자전거 길(bikePath)로 가자. 남쪽으로 세 걸음, 동쪽으로 한 걸음.";
+"자전거 길(bikePath)로 가자. 남쪽으로 세 걸음, 동쪽으로 한 걸음.\n";
 
 my $output13 = 'bikePath/southThreeSteps/eastOneStep/Clue13_W.txt';
 my $OUT13 = &openOut($output13);
