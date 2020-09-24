@@ -24,9 +24,13 @@ perl unix_tutorial/treasureHunt_v2_kor.pl
 rm -rf unix_tutorial/
 ```
 
-3. 파일들이 잘 생성됐다면 이제 nano를 이용해 단서를 열고 읽어봅시다.
+이 중 ```treasureHunt_v2_kor.pl``` 파일이 보물 찾기 게임을 실행해주는 파일입니다.
+이 게임은 Perl이라는 프로그래밍 언어로 짜였습니다.
+```.pl``` 이라는 확장자로 끝나면 ```perl file.pl``` 등으로 실행할 수 있습니다.
+
+3. 파일들이 잘 생성됐다면 이제 nano 또는 cat을 이용해 단서를 열고 읽어봅시다.
 ```sh
-nano Clue01_S.txt
+cat Clue01_S.txt # or nano Clue01_S.txt
 ```
 
-4. 문제 다 풀었는데 선물 준비 안 해놨으면 담당자 때리시면 됩니다. 저는 오지게 맞았어요...
+4. 문제 다 풀었는데 선물 준비 안 해놨으면 담당자를 혼내주도록 합시다. 독학해서 담당자가 없다면 메일 주세요.
